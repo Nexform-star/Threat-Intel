@@ -12,6 +12,7 @@ The analysis was performed through static analysis and Git history review. The o
 * Obfuscator: MoonVeil 2.0.25
 * File size: approximately 217 KB
 * Format: heavily obfuscated Lua script
+* https://github.com/FF3MOD/87UT
 
 The script explicitly identifies itself as being generated using:
 
