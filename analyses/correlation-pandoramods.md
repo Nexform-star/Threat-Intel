@@ -28,7 +28,7 @@ The same file was identified in both projects.
 
 SHA-256:
 
-
+`1f8584740529424e2cb07cd56287e2919d6995249750589324c55cde42da4150`
 
 The SHA-256 values are identical, indicating that the two files have identical content.
 
