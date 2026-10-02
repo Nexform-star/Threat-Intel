@@ -24,13 +24,19 @@ This domain was previously identified during the static analysis of Project A as
 
 ## 4. Shared Artifact
 
-The same file was identified in both projects.
+The same file was identified across all three projects.
 
-SHA-256:
+| Project | Repository                                      | SHA-256  |
+| ------- | ----------------------------------------------- | -------- |
+| A       | `aerisgrace29/Duel-Forge-Bot`                   | `1f8584740529424e2cb07cd56287e2919d6995249750589324c55cde42da4150` |
+| B       | `andreibalakin18-ai/anime-shop-sim-clerk-brain` | `1f8584740529424e2cb07cd56287e2919d6995249750589324c55cde42da4150` |
+| C       | `zaltvcloud/di2-apex-trainer`                   | `1f8584740529424e2cb07cd56287e2919d6995249750589324c55cde42da4150` |
 
-`1f8584740529424e2cb07cd56287e2919d6995249750589324c55cde42da4150`
+The SHA-256 value is identical across all three samples, indicating that the files have identical content.
 
-The SHA-256 values are identical, indicating that the two files have identical content.
+This provides a strong technical correlation between the three distribution chains. Combined with the shared `pandoramods.top` infrastructure and similar web/redirect structures, the projects appear to rely on the same distributed artifact and infrastructure.
+
+This finding establishes a technical relationship between the samples, but does not by itself establish that the repositories are operated by the same individual or organization.
 
 ## 5. Structural Similarities
 
@@ -55,6 +61,8 @@ It does not, by itself, establish that the repositories are operated by the same
 The investigation identified multiple technical links between the two projects, most notably the shared `pandoramods.top` infrastructure and the identical file identified through SHA-256 comparison.
 
 These findings support further investigation of the shared infrastructure and historical repository contents.
+
+Three apparently unrelated projects were found to share the same external infrastructure, web distribution structure, and identical file based on SHA-256 comparison.
 
 ## 8. Limitations
 
